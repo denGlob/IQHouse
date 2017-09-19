@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">IQ House</string>
+    <string name="statistics_bar">Statistics</string>
+
+    <!--Controllers-->
+
+    <string name="temperature">Temperature</string>
+    <string name="humidty"></string>
+
+    <string name="profile_name">Kawaii tyan</string>
+    <string name="default_time">12.56 am\nMonday\nJuly, 20</string>
+</resources>

@@ -18,7 +18,6 @@ import densh.com.iqhouse.view.ui.util.*
  */
 class HexagonMapper (val models: List<HexagonModel>, val context: Context){
 
-    private val DEFAULT_WEIGHT = 3
     private val conteiners = ArrayList<HexagonContainer>()
 
     private fun mapPart(containers: List<HexagonContainer>) {
@@ -66,7 +65,7 @@ class HexagonMapper (val models: List<HexagonModel>, val context: Context){
 
     private fun configContainer(container: HexagonContainer, color: Int, description: String) {
         container.background.setBackgroundResource(R.drawable.ic_hexagon)
-//        ViewCompat.setBackgroundTintList(container.background, ColorStateList.valueOf(color))
+        ViewCompat.setBackgroundTintList(container.background, ColorStateList.valueOf(color))
         container.content.text = description
         container.content.textSize = 14F
         container.content.gravity = Gravity.CENTER

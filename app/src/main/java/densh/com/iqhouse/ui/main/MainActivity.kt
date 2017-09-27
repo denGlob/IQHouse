@@ -1,14 +1,14 @@
-package densh.com.iqhouse.view
+package densh.com.iqhouse.ui.main
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.widget.RelativeLayout
 
 import densh.com.iqhouse.R
-import densh.com.iqhouse.view.models.HexagonModel
-import densh.com.iqhouse.view.ui.hexagon.HexagonMapper
+import densh.com.iqhouse.models.HexagonModel
+import densh.com.iqhouse.ui.hexagon.HexagonMapper
 
-import densh.com.iqhouse.view.models.hexagon.HouseholdTypes.*
+import densh.com.iqhouse.models.hexagon.HouseholdTypes.*
 
 class MainActivity : AppCompatActivity() {
 

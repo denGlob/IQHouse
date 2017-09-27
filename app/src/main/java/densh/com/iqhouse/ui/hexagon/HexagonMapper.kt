@@ -10,9 +10,9 @@ import android.widget.ImageView
 import android.widget.TextView
 
 import densh.com.iqhouse.R
+import densh.com.iqhouse.app.*
 import densh.com.iqhouse.models.HexagonModel
 import densh.com.iqhouse.models.hexagon.HouseholdTypes.*
-import densh.com.iqhouse.ui.util.*
 
 /**
  * Created by denglob on 9/10/17.

@@ -1,11 +1,10 @@
 package densh.com.iqhouse.ui.hexagon
 
 import android.content.Context
-import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import densh.com.iqhouse.ui.util.convertDpToPixel
+import densh.com.iqhouse.app.convertDpToPixel
 
 /**
  * Created by denglob on 9/9/17.

@@ -1,4 +1,4 @@
-package densh.com.iqhouse.view.ui.util;
+package densh.com.iqhouse.exception;
 
 /**
  * Created by denglob on 4/26/17.

@@ -1,4 +1,4 @@
-package densh.com.iqhouse.view.ui.util
+package densh.com.iqhouse.app
 
 import android.content.Context
 import android.util.DisplayMetrics

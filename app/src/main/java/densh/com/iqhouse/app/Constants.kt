@@ -1,4 +1,4 @@
-package densh.com.iqhouse.view.ui.util
+package densh.com.iqhouse.app
 
 import android.content.Context
 import android.content.Context.WINDOW_SERVICE
@@ -7,7 +7,7 @@ import android.view.WindowManager
 /**
  * Created by denglob on 9/10/17.
  */
-val context = null
+var context: Context? = null
 val DEFAULT_WEIGHT = 3
 val HEXAGON_INNER_RADIUS_DP = sizeOfScreen(context)
 val HEXAGON_EXTERIOR_RADIUS_DP = ((HEXAGON_INNER_RADIUS_DP * 2)/Math.sqrt(3.0)).toInt()
@@ -23,5 +23,5 @@ fun sizeOfScreen (c: Context?): Int {
     if (c != null) {
         return (c.getSystemService(WINDOW_SERVICE) as WindowManager).defaultDisplay.width
     }
-    return 50;
+    return 50
 }
